@@ -19,7 +19,15 @@
     background: red;
     flex-grow: 1;
 }
+@media (max-width: 1920px) {
+    .wrapper {
+        background: rgb(0, 0, 0);
+    }
 
+    .box1 {
+        background: rgb(255, 0, 0);
+    }
+}
 @media (max-width: 1440px) {
     .wrapper {
         background: yellowgreen;
