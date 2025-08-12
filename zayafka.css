@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+    flex-wrap: wrap;
+    width: 1180px;
+    height: 392px;
+    top: 276px;
+    left: 154px;
+    opacity: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px 0px #D4145A40;
+}
+form{
+    width: 745px;
+    height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+h1{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.text{
+    width: 362px;   
+    height: 50px;
+    border: 1px solid #A1A1A1;
+    border-radius: 9px;
+}
+
+.message{
+    width: 745px;
+    height: 80px;
+    border: 1px solid #A1A1A1;
+    border-radius: 9px;
+}
+.btn1{
+   width: 169px;
+   height: 49px;
+   opacity: 1;
+   border-radius: 9px;
+   font-family: Roboto;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 100%; 
+   letter-spacing: 0%;
+   text-align: center;
+   border: none;
+   color:#d4adc1 ;
+   background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+}
+.btn1:hover{
+    cursor: pointer;
+    color: #d4adc1;
+    transition: 0.3s ease-in-out all;
+    background: linear-gradient(96.12deg, #3D5BF5 -21.03%, #D4145A 103.56%);
+}
+
+.text{
+padding: 17px 40px;
+font-family: Roboto;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #989898;
+
+}
+.text ::placeholder{
+    color: #000;
+}
+.message ::placeholder{
+    color: #000;
+}
+.message{
+padding:30px 40px;
+font-family: Roboto;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #989898;
+
+}
