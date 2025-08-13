@@ -10,20 +10,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.container{
+.zayafka{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 70px;
     flex-wrap: wrap;
-    width: 1180px;
-    height: 392px;
+    width: 760px;
+    height: 500px;
     top: 276px;
     left: 154px;
     opacity: 1;
+    border: none;
+    border-radius: 15px;
     background: #FFFFFF;
     box-shadow: 0px 0px 35px 0px #D4145A40;
 }
@@ -46,14 +52,14 @@ text-align: center;
 
 }
 .text{
-    width: 362px;   
+    width: 320px;   
     height: 50px;
     border: 1px solid #A1A1A1;
     border-radius: 9px;
 }
 
 .message{
-    width: 745px;
+    width: 660px;
     height: 80px;
     border: 1px solid #A1A1A1;
     border-radius: 9px;
@@ -105,4 +111,52 @@ line-height: 100%;
 letter-spacing: 0%;
 color: #989898;
 
+}
+@media (max-width: 1024px) {
+    .zayafka{
+        width: 768px;
+        height: 501px;
+        height: auto;
+        padding: 20px 10px;
+        flex-wrap: wrap;
+    }
+    .text{
+        width: 600px;
+    }
+    form{
+        width: 100%;
+        height: 400px;
+        flex-direction:column ;
+        align-items: center;
+    }
+    .message{
+        width: 600px;
+    }
+    .btn1{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .zayafka{
+        width: 380px;
+        height: 501px;
+        height: auto;
+        padding: 20px 10px;
+        flex-wrap: wrap;
+    }
+    .text{
+        width: 320px;
+    }
+    form{
+        width: 100%;
+        height: 400px;
+        flex-direction:column ;
+        align-items: center;
+    }
+    .message{
+        width: 320px;
+    }
+    .btn1{
+        margin-top: 20px;
+    }
 }
